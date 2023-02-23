@@ -1,0 +1,136 @@
+/*This file should have CSS rulesets */
+
+/*** common ***/
+html{
+    background:beige;
+}
+
+body {
+	font-family: cursive,"Times New Roman", Georgia, Cambria, Times, serif;
+}
+
+p {
+	color:crimson;
+	font-weight: bold;
+    text-transform: capitalize;
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+}
+
+hr{
+    border: 2px solid green;
+}
+
+/*** homepage ***/
+
+.find-people-form{
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#searchinput{
+    background-color:aliceblue;
+    padding: 15px;
+}
+
+#searchinput:focus{
+    border: 3px solid #555;
+    padding: 15px;
+}
+
+#submit-button{
+    padding: 10px;
+    border: 1px solid gray;
+    background-color:#B4886B;
+    border-radius: 50px;
+}
+#submit-button:hover {
+    background-color:mediumspringgreen;
+    box-shadow: 5px 5px 5px black;
+  }
+
+label{
+    color: #B4886B;
+    font-weight: bold;
+    display: block;
+}
+
+label:after { content: ": " }
+
+/*common in main handelbars*/
+
+.header-p{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+.foot{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*** peopleFound ***/
+
+#people-find-h2{
+    font-weight: bold;
+    font-family: monospace,Helvetica, Arial, sans-serif;
+    font-size:large;
+}
+
+.people-list{
+    font-size: 0.5rem;
+}
+
+a:visited{
+    font-style: italic;
+	color: saddlebrown;
+}
+
+a:hover{
+    font-style: normal;
+	font-weight: 700;
+}
+
+.people-list-element .people-a{
+    letter-spacing: 4px;
+}
+
+/*** peopleFoundByID ***/
+.ID-section{
+    background: papayawhip;
+    padding: 20px;
+    width: 500px;
+    line-height: 1.7em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ID-h2{
+    font-weight:600;
+    font-family: fantasy, Helvetica, Arial, sans-serif;
+    font-size:x-large;
+    text-align: center;
+}
+
+.ID-dl{
+    display: grid;
+  grid-template-columns: max-content auto;
+}
+
+dt{
+    grid-column-start: 1;
+}
+
+dd{
+    grid-column-start: 2;
+}

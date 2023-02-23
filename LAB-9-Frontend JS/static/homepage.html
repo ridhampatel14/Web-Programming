@@ -1,0 +1,54 @@
+<!-- 
+Your page should have a few basic user interface elements:
+-A header tag, with an h1 naming your site, with a title for your page
+-A footer with your name, student ID, and any other info about yourself you wish to include
+-A single unordered list with an id of results. All the arrays you have checked so far (until you refresh the page) will appear in this list as list items. Each item in the list will alternate the text colors starting with green, then red, then green, then red etc.
+
+Your page will have a form with the following:
+-A label with a for attribute referencing your input
+-A input with a name and type of text
+-A button to submit the form
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sort Arrays</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/main.css">
+   </head>
+   <body>
+     <!-- page content -->
+     <main>
+        <h1>Sort Arrays</h1>
+        <form id="array-form">
+            <label for="input" class="label">Arrays</label>
+            <input name="arrayinput" type="text" placeholder="Enter Arrays" class="full-width-input" id="input">
+            <button type="submit" id="submit-button">Sort</button>
+        </form>
+        <div id="error" class="hidden">
+          <div class="error-ele">
+
+          </div>
+        </div>
+        <div id="result" class="hidden">
+          <ul id="uolist">
+          </ul>
+        </div>
+     </main>
+     <footer id="foot">
+        <h3>Ridham Patel</h3>
+        <h3>Student ID: 20010932</h3>
+        <h3>From India</h3>
+     </footer>
+     <script src="/public/js/main.js"></script>
+     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+   </body>
+ </html>

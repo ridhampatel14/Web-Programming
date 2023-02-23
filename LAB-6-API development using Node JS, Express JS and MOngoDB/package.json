@@ -1,0 +1,17 @@
+{
+  "name": "lab6_stub",
+  "version": "1.0.0",
+  "description": "this is lab 6 of ridham patel",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ridham patel 20010932",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.10.0"
+  }
+}

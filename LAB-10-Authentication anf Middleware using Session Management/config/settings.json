@@ -1,0 +1,6 @@
+{
+    "mongoConfig": {
+      "serverUrl": "mongodb://localhost:27017/",
+      "database": "Ridham_Patel_lab10"
+    }
+  }
